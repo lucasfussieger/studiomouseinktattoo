@@ -15,10 +15,10 @@ export default function Feedback() {
     return (
         <div className="relative bg-black py-10">
         <Redshadow />
-  <div className=" text-white p-10 text-center">
-    <p className="font-light mb-10 text-xs text-white/30">S T U D I O &nbsp; M O U S E I N K &nbsp; T A T T O O</p>
+  <div className=" text-white lg:p-10 p-5 text-center">
+    <p className="font-light lg:mb-10 mb-5 text-xs text-white/30">S T U D I O &nbsp; M O U S E I N K &nbsp; T A T T O O</p>
     <p className={`lg:text-6xl text-4xl red ${playfair.className} font-bold`}>Cada tattoo é única. Cada detalhe importa.</p>
-    <p className="m-20 text-lg">O QUE NOSSOS CLIENTES FALAM:</p>
+    <p className="lg:m-20 m-10 mt-20 text-lg">O QUE NOSSOS CLIENTES FALAM:</p>
     
     {/* Container de visualização (janela) */}
     <div className="overflow-hidden whitespace-nowrap mask-gradient"> 

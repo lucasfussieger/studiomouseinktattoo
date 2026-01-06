@@ -27,7 +27,7 @@ export default function Artistas() {
                 <Redshadow/>
                 <div className='relative place-items-center border-t p-3 border-white/30'>
                     <img src="mouse.png" alt="" className="hidden lg:block rounded-full mb-5 h-30" />
-                    <p className="text-center text-white/30 m-3">R O D R I G O &nbsp; - &nbsp; M O U S E</p>
+                    <p className="text-center text-white/30 m-3 font-thin">R O D R I G O &nbsp; - &nbsp; M O U S E</p>
                     <p className="text-center hidden lg:block text-white/30">Especialidades: <span className="font-bold">Realismo, lettering e colorido</span></p>
                 </div>
 
@@ -53,6 +53,9 @@ export default function Artistas() {
                         
                     </div>
                 </div >
+                <p className='m-3 text-center text-xs lg:text-sm text-white/30 font//light'>
+                    saiba mais sobre o trabalho de nosso artista ou entre em contato:
+                </p>
                 <div className='w-auto place-items-center m-3'>
                     <a href="https://wa.me/5547996739479?text=ol%C3%A1!%20tudo%20bem?%20eu%20gostaria%20de%20fazer%20um%20or%C3%A7amento"
                      className='topico w-full gap-3'
@@ -67,7 +70,7 @@ export default function Artistas() {
                 <Redshadow/>
                 <div className='relative place-items-center border-t p-3 border-white/30'>
                     <img src="fuzieger.jpg" alt="" className="hidden lg:block rounded-full mb-5 h-30" />
-                    <p className="text-center text-white/30 m-3">L U C A S &nbsp; F U Z I E G E R</p>
+                    <p className="text-center font-thin text-white/30 m-3">L U C A S &nbsp; F U Z I E G E R</p>
                     <p className="text-center hidden lg:block text-white/30">Especialidades: <span className="font-bold">Blackwork, rastelado e fineline</span></p>
                 </div>
                 <div className="relative overflow-hidden whitespace-nowrap mask-gradient rounded-2xl m-3"> 
@@ -92,6 +95,9 @@ export default function Artistas() {
                         
                     </div>
                 </div >
+                <p className='m-3 text-center text-xs lg:text-sm text-white/30 font//light'>
+                    saiba mais sobre o trabalho de nosso artista ou entre em contato:
+                </p>
                 <div className='w-auto place-items-center m-3'>
                     <a href="https://wa.me/5547999346074?text=ol%C3%A1!%20tudo%20bem?%20eu%20gostaria%20de%20fazer%20um%20or%C3%A7amento" className='topico gap-3 w-full' target='_blank'><img src="whatsapp.png" className='h-8' alt="" />Fazer orçamento</a> 
                     <a href="https://www.instagram.com/fuzieger.tattoo/" className='insta flex justify-center gap-3 w-full' target='_blank'><img src="insta.png" className='h-8' alt="" />@fuzieger.tattoo</a>   

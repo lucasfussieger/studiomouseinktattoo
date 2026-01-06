@@ -12,7 +12,7 @@ export default function HomePage() {
       <Carrossel />
       <Header />
       <Feedback />
-       <div className="bg-black h-15"></div>
+       <div className="bg-black h-15 hidden lg:block"></div>
       <Carrossel />
       <Artistas />
       <div className="bg-black h-20"></div>

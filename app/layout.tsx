@@ -4,7 +4,6 @@ import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import ScrollReveal from "./components/scrollreveal";
 import Script from "next/script";
-import { env } from "process";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,14 +13,20 @@ const poppins = Poppins({
 });
 
 const google_id = process.env.GOOGLE_ID
+const google_verify = process.env.GOOGLE_VERIFY
 
 export const metadata: Metadata = {
   title: "STUDIO MOUSEINK TATTOO | Studio de tatuagem em Bombinhas-SC",
   description: "Desenvolvido por @fuziegertech",
   icons: {
-    icon: "logo.png"
-  }
+    icon: "logo.png"},
+  verification: {
+    google: `${google_verify}`,
+  },
+  
 };
+
+
 
 export default function RootLayout({
   children,

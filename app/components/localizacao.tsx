@@ -19,10 +19,10 @@ export default function Localizacao() {
             <div className="relative place-items-center text-white/30">
                 <h1 className="text-sm font-light">c o m o &nbsp; c h e g a r :</h1>
                 <h1 className={` text-white ${playfair.className} font-bold red m-3 text-center text-3xl lg:text-6xl`}>STUDIO MOUSEINK TATTOO</h1>
-                <p className="mb-20 text-lg text-center text-white/30"> <span className="font-bold">Tattoo</span>, arte & <span className="font-bold">qualidade</span> como nenhum outro <span className="font-bold">studio</span></p>
+                <p className="mb-10 lg:mb-20 lg:text-lg text-xs text-center text-white/30"> <span className="font-bold">Tattoo</span>, arte & <span className="font-bold">qualidade</span> como nenhum outro <span className="font-bold">studio</span></p>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
-                    <div className="font-bold text-2xl text-white fade-in">
+                    <div className="font-bold lg:text-2xl text-white fade-in">
                         AVENIDA MARACUJÁ, 349 - BOMBINHAS-SC,<br /> 88215-000
                         <p className="text-sm text-white/30">Para agendar uma tattoo com um de nossos artistas entre em contato diretamente com ele</p>
                         <div className="flex justify-center grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 text-lg">
