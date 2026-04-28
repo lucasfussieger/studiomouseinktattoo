@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import ScrollReveal from "./components/scrollreveal";
 import Script from "next/script";

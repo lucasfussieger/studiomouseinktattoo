@@ -1,30 +1,33 @@
-import '../globals.css';
-
 export default function Footer() {
-    return (
-        <section className="w-full bg-black h-auto items-center p-3 lg:p-10 text-white text-sm text-white/30">
-            <div className="flex justify-between border-b border-white/30 mb-10">
+  return (
+    <footer className="w-full bg-black px-5 lg:px-20 py-10 text-white/30 text-xs">
+      <div className="max-w-5xl mx-auto flex flex-col gap-6">
 
-                <div className="mb-3">
-                    
-                    STUDIO MOUSEINK TATTOO <br />
-                    Tattoo, arte & qualidade como nenhum outro studio <br />
-                </div>
+        <div className="flex flex-col sm:flex-row justify-between gap-4 border-b border-white/10 pb-6">
+          <p className="text-white/50 font-medium">Studio Mouseink Tattoo</p>
+          <a
+            href="https://www.instagram.com/studiomouseinktattoo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white/60 transition-colors duration-200"
+          >
+            @studiomouseink
+          </a>
+        </div>
 
-                <div>
-                    redes socias: <br />
-                    Instagram: <a href="https://www.instagram.com/studiomouseinktattoo/" target='_blank' className="red">@studiomouseink</a> <br />
-                </div>
-            </div>
-            <div className="flex justify-between">
-                <p>
-                    © 2025 Studio Mouseink Tattoo. Todos os direitos reservados.
-                </p>
-                
-                <p>
-                    Desenvolvido por <a href="https://www.instagram.com/fuziegertech/" target="_blank" className="red right-0 relative">@fuziegertech</a>
-                </p>
-            </div>            
-        </section>
-    )
+        <div className="flex flex-col sm:flex-row justify-between gap-2">
+          <p>© 2025 Studio Mouseink Tattoo. Todos os direitos reservados.</p>
+          <a
+            href="https://www.instagram.com/fuziegertech/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white/60 transition-colors duration-200"
+          >
+            Desenvolvido por @fuziegertech
+          </a>
+        </div>
+
+      </div>
+    </footer>
+  );
 }
